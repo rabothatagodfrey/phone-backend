@@ -8,7 +8,7 @@ async function bootstrap() {
 	let logger = new Logger();
 
 	app.enableCors({
-		origin: ['https://godfreydev.netlify.app/'],
+		origin: ['http://localhost:4200', 'https://godfreydev.netlify.app/'],
 		credentials: true
 	});
 	app.setGlobalPrefix('api');
